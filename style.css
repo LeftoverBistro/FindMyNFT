@@ -1,0 +1,98 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    }
+    .nav .ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    .nav .ul .li {
+    margin-left: 10px;
+    }
+    .nav .ul .li .a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.2s ease;
+    }
+    .nav .ul .li .a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    }
+    /* Logo styling */
+    .header .img {
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    /* Add a box-shadow and padding to the sections */
+    .section {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    }
+    /* Add a hover effect to the section links in the navigation bar */
+    .nav .ul .li .a:hover + .section {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    }
+    .nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+.nav .ul .li .a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+    
+    /* Add a background color to the "About" section */
+    #about {
+    background-color: #f2f2f2;
+    }
+    /* Add a background color and padding to the "Contact" section */
+    #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    }
+    /* Add a background color and some padding to the "Team" section */
+    #team {
+    background-color: #333;
+    padding: 40px;
+    }
+    /* Add a background color and some styling to the "Projects" section */
+    #projects {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    /* Add some styling to the project images */
+    #projects .img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    }
